@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 30% 12%;
+    --foreground: 210 40% 98%;
+    --card: 210 30% 18%;
+    --card-foreground: 210 40% 98%;
+    --popover: 210 30% 12%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 194 90% 55%;
+    --primary-foreground: 215 30% 15%;
+    --secondary: 210 30% 20%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 210 30% 20%;
+    --muted-foreground: 215 20% 65.1%;
+    --accent: 194 90% 55%;
+    --accent-foreground: 194 45% 15%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 210 30% 30%;
+    --input: 210 30% 30%;
+    --ring: 194 90% 55%;
+    --radius: 3rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  body.loading-active {
+    overflow: hidden;
+  }
+
+  ::selection {
+    background-color: #24c1e08c;
+    color: hsl(var(--foreground));
+  }
+
+  .liquid-glass-ui {
+    @apply bg-background/50 backdrop-blur-lg border border-white/10 rounded-lg shadow-lg transition duration-300 hover:bg-background/70 hover:border-white/20;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--primary));
+  border-radius: 20px;
+  border: 3px solid hsl(var(--background));
+  transition: background-color 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(194 90% 65%);
+}
+
+@layer utilities {
+  .animated-gradient {
+    background-image: radial-gradient(circle at 50% 50%, hsl(var(--primary) / 0.2), hsl(var(--background)) 70%);
+    background-size: 200% 200%;
+    animation: gradient-animation 8s ease-in-out infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}

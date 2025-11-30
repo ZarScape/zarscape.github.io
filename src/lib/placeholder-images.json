@@ -1,0 +1,29 @@
+{
+  "placeholderImages": [
+    {
+      "id": "profile-picture",
+      "description": "A portrait of a developer.",
+      "imageUrl": "https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/ZarScape/logo-with-background.png"
+    },
+    {
+      "id": "hero-background",
+      "description": "Abstract background image for the hero section.",
+      "imageUrl": "https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/ZarScape/nature-background.png"
+    },
+    {
+      "id": "project-1",
+      "description": "Zarco discord bot banner.",
+      "imageUrl": "https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/Zarco/zarco-banner-short.png"
+    },
+    {
+      "id": "project-2",
+      "description": "Zar Browser application interface",
+      "imageUrl": "https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/other/zar-browser-preview.png"
+    },
+    {
+      "id": "project-3",
+      "description": "Discord.js v14 bot template with components v2.",
+      "imageUrl": "https://repository-images.githubusercontent.com/1041534797/fd8ab1cc-296c-4601-beda-8e3202262d98"
+    }
+  ]
+}
