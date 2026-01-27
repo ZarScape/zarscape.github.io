@@ -1,0 +1,9 @@
+[
+    { "id": "about", "label": "Who is ZarScape?" },
+    { "id": "skills", "label": "Tech Stack & Ecosystem" },
+    { "id": "projects", "label": "Project Insights" },
+    { "id": "contact", "label": "Secure Contact" },
+    { "id": "social", "label": "Social Network" },
+    { "id": "experience", "label": "Technical Experience" },
+    { "id": "availability", "label": "Project Availability" }
+]

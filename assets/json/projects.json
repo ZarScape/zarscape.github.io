@@ -1,0 +1,23 @@
+[
+    { 
+        "title": "Zarco", 
+        "description": "Zarco is Ultimate Discord Companion. Always by Your Side. A multipurpose discord app packed with everything you need to enhance a discord server.", 
+        "tags": ["discord", "discordbot", "nodejs"], 
+        "link": "https://discord.com/oauth2/authorize?client_id=1345820519827636295", 
+        "image": "https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/Projects/zarco-banner.webp" 
+    },
+    { 
+        "title": "Zar Browser", 
+        "description": "A simple, lightweight and fast web browser with features: Tabbed browsing, Navigation, Home, Search, Window Controls etc.", 
+        "tags": ["app", "zarbrowser", "zar"], 
+        "link": "https://github.com/ZarScape/ZarBrowser", 
+        "image": "https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/Projects/zar-browser-preview.webp" 
+    },
+    { 
+        "title": "Discord.js Template", 
+        "description": "A full-featured Discord.js v14 template built with the Components V2 system. Optimized for modular slash command handling.", 
+        "tags": ["discord", "bot-template"], 
+        "link": "https://github.com/ZarScape/discord.js-v14-v2-template", 
+        "image": "https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/Projects/djs-template.webp" 
+    }
+]

@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZarScape | Muhammad Abuzar</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/ZarScape/logo-with-background-low-quality.png">
+    <link rel="stylesheet" href="assets/css/tailwind.css">
+</head>
+<body class="selection:bg-cyan-500 selection:text-black">
+    <canvas id="starfield-canvas"></canvas>
+    <div class="bg-grain"></div>
+
+    <!-- Navigation -->
+    <header class="fixed top-6 left-1/2 -translate-x-1/2 w-[calc(100%-1.5rem)] md:w-[calc(100%-3rem)] max-w-7xl z-50 glass rounded-full border border-cyan-500/20 shadow-2xl shadow-cyan-900/40 nav-capsule">
+        <div class="px-4 md:px-10 h-16 md:h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2 md:gap-3">
+                <img src="https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/ZarScape/logo-with-background-low-quality.png" 
+                     alt="ZarScape Logo" 
+                     class="w-8 h-8 md:w-12 md:h-12 rounded-full border border-cyan-400/30 object-cover shadow-lg shadow-cyan-400/20">
+                <div class="text-lg md:text-2xl font-black tracking-tighter text-gradient">
+                    ZARSCAPE
+                </div>
+            </div>
+            <nav class="hidden lg:flex space-x-10 text-[10px] font-black uppercase tracking-[0.25em] text-cyan-100/60">
+                <a href="#about" class="nav-link relative hover:text-cyan-400 transition-colors">About</a>
+                <a href="#skills" class="nav-link relative hover:text-cyan-400 transition-colors">Skills</a>
+                <a href="#projects" class="nav-link relative hover:text-cyan-400 transition-colors">Projects</a>
+                <a href="#connect" class="nav-link relative hover:text-cyan-400 transition-colors">Connect</a>
+                <a href="#contact" class="nav-link relative hover:text-cyan-400 transition-colors">Contact</a>
+            </nav>
+            <div>
+                <a href="https://github.com/ZarScape" target="_blank" class="px-4 py-2 md:px-8 rounded-full border border-cyan-400/30 hover:bg-cyan-400/10 hover:border-cyan-400 transition-all text-[9px] md:text-[10px] font-black uppercase tracking-widest text-cyan-100">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="relative z-10">
+        <!-- Hero Section -->
+        <section class="min-h-screen flex items-center justify-center pt-28 px-6 reveal">
+            <div class="text-center max-w-5xl">
+                <h2 class="text-cyan-400 font-black tracking-[0.4em] uppercase mb-8 animate-fade text-xs md:text-sm opacity-70">
+                    High Performance Engineering
+                </h2>
+                <h1 class="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-black tracking-tight mb-8 animate-fade leading-tight text-white">
+                    I'm Muhammad Abuzar, <br/> aka <span class="text-gradient">ZarScape</span>.
+                </h1>
+                <p class="text-cyan-100/50 text-lg md:text-2xl mb-14 leading-relaxed font-light animate-fade [animation-delay:0.2s] max-w-3xl mx-auto">
+                    Developer specializing in high-performance Discord systems, scalable full-stack applications, and precision automation tools.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-6 animate-fade [animation-delay:0.4s]">
+                    <a href="#projects" class="w-full sm:w-auto px-10 md:px-14 py-4 md:py-5 bg-cyan-600 hover:bg-cyan-500 text-black font-black uppercase tracking-widest rounded-xl transition-all transform hover:-translate-y-1 shadow-[0_0_30px_rgba(34,211,238,0.4)] text-xs md:text-sm text-center">View Work</a>
+                    <a href="#connect" class="w-full sm:w-auto px-10 md:px-14 py-4 md:py-5 glass hover:bg-white/5 text-white font-black uppercase tracking-widest rounded-xl transition-all border border-cyan-400/20 text-xs md:text-sm text-center">Connect</a>
+                </div>
+                <div class="mt-20 md:mt-24 flex items-center justify-center gap-4 text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em] text-cyan-500/40 animate-fade [animation-delay:0.6s]">
+                    <svg class="w-2 h-2 fill-cyan-400 shadow-[0_0_10px_#22d3ee]" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5"/></svg>
+                    Operating from Islamabad, PK
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 md:py-32 px-6 reveal">
+            <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 md:gap-20">
+                <div class="w-full lg:w-1/2 relative group">
+                    <div class="absolute -inset-4 bg-gradient-to-tr from-cyan-600 to-blue-900 rounded-[2.5rem] blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-1000"></div>
+                    <div class="relative glass p-2 md:p-3 rounded-[2rem]">
+                        <img src="https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/ZarScape/logo-with-background.png" alt="ZarScape Profile" class="rounded-[1.5rem] transition-all duration-1000 aspect-square object-cover w-full shadow-2xl">
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 text-center lg:text-left">
+                    <h3 class="text-cyan-400 font-black uppercase tracking-[0.3em] text-xs mb-6">Bio</h3>
+                    <h2 class="text-4xl md:text-6xl font-black mb-8 md:text-10 text-white leading-tight">Engineering <br/>With Precision.</h2>
+                    <div class="space-y-6 md:space-y-8 text-cyan-50/60 text-base md:text-lg leading-relaxed font-light">
+                        <p>I am <span class="text-white font-black">Muhammad Abuzar</span>, a developer known for high-performance Discord integrations and scalable web systems.</p>
+                        <p>I focus on turning complex logical requirements into modular, high-availability digital architectures that serve millions of interactions monthly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section - Marquee -->
+        <section id="skills" class="py-20 md:py-32 bg-cyan-900/5 reveal overflow-hidden">
+            <div class="max-w-7xl mx-auto px-6 mb-16 md:mb-24">
+                <div class="text-center">
+                    <h3 class="text-cyan-400 font-black uppercase tracking-[0.3em] text-xs mb-6">Capabilities</h3>
+                    <h2 class="text-4xl md:text-6xl font-black text-white">The Tech Stack</h2>
+                </div>
+            </div>
+            <div class="relative flex items-center">
+                <div class="absolute inset-y-0 left-0 w-64 bg-gradient-to-r from-[#01080e] to-transparent z-10"></div>
+                <div class="absolute inset-y-0 right-0 w-64 bg-gradient-to-l from-[#01080e] to-transparent z-10"></div>
+                <div id="skills-container" class="marquee-track py-10"></div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 md:py-32 px-6 reveal">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col lg:flex-row items-center lg:items-end justify-between mb-16 md:mb-24 gap-8">
+                    <div class="text-center lg:text-left">
+                        <h3 class="text-cyan-400 font-black uppercase tracking-[0.3em] text-xs mb-6">Portfolio</h3>
+                        <h2 class="text-4xl md:text-6xl font-black text-white">Featured Projects</h2>
+                    </div>
+                    <a href="https://github.com/ZarScape" target="_blank" class="text-cyan-400 hover:text-white font-black text-xs uppercase tracking-widest border-b-2 border-cyan-500/20 hover:border-cyan-400 transition-all pb-2">
+                        GitHub Portfolio →
+                    </a>
+                </div>
+                <div id="projects-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-12"></div>
+            </div>
+        </section>
+
+        <!-- Connect Section -->
+        <section id="connect" class="py-20 md:py-32 px-6 bg-cyan-950/10 reveal">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-20 md:mb-24">
+                    <h3 class="text-cyan-400 font-black uppercase tracking-[0.3em] text-xs mb-6">Network Hub</h3>
+                    <h2 class="text-4xl md:text-6xl font-black text-white">Connect with Me</h2>
+                    <p class="mt-8 text-cyan-100/40 text-lg md:text-xl font-light max-w-2xl mx-auto">Establish a secure link via these primary operational channels.</p>
+                </div>
+                <div id="social-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+                    <!-- Cards injected by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <footer id="contact" class="py-20 md:py-32 px-6 relative reveal">
+            <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent"></div>
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-24">
+                    <div class="text-center lg:text-left">
+                        <h2 class="text-5xl md:text-8xl font-black mb-8 md:text-12 leading-tight text-white">
+                            Ready to <br/> <span class="text-gradient">Work?</span>
+                        </h2>
+                        <p class="text-cyan-100/40 text-lg md:text-xl max-w-md mx-auto lg:mx-0 mb-12 md:text-20 font-light">
+                            Available for collaborations, specialized Discord builds, and enterprise-grade full-stack tools.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-6 md:gap-10">
+                            <a href="mailto:ZarScape@hotmail.com" class="group flex items-center justify-center lg:justify-start gap-5 text-lg md:text-xl font-black text-white hover:text-cyan-400 transition-all">
+                                <span class="w-12 h-12 flex items-center justify-center glass rounded-xl group-hover:border-cyan-400/60 transition-all">
+                                    <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                                </span>
+                                ZarScape@hotmail.com
+                            </a>
+                            <a href="https://discord.gg/6YVmxA4Qsf" target="_blank" class="group flex items-center justify-center lg:justify-start gap-5 text-lg md:text-xl font-black text-white hover:text-cyan-400 transition-all">
+                                <span class="w-12 h-12 flex items-center justify-center glass rounded-xl group-hover:border-cyan-400/60 transition-all">
+                                    <svg viewBox="0 -28.5 256 256" class="w-6 h-6 fill-current"><path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" /></svg>
+                                </span>
+                                Discord Server
+                            </a>
+                        </div>
+                    </div>
+                    <div class="glass p-8 md:p-16 rounded-[2rem] md:rounded-[3rem] border border-cyan-400/10 shadow-2xl">
+                        <h4 class="text-2xl md:text-3xl font-black mb-10 md:mb-12 text-white text-center text-gradient">Inquiry Protocol</h4>
+                        <form id="contact-form" class="space-y-8 md:space-y-10">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10">
+                                <div class="space-y-3">
+                                    <label class="text-[9px] md:text-[10px] font-black text-cyan-500 uppercase tracking-widest ml-1">Client Identity</label>
+                                    <input type="text" name="name" class="w-full bg-cyan-900/5 border border-cyan-400/10 rounded-2xl px-6 md:px-8 py-4 md:py-6 focus:outline-none focus:border-cyan-400 transition-all text-white text-sm" placeholder="Name" required>
+                                </div>
+                                <div class="space-y-3">
+                                    <label class="text-[9px] md:text-[10px] font-black text-cyan-500 uppercase tracking-widest ml-1">Access Channel</label>
+                                    <input type="email" name="email" class="w-full bg-cyan-900/5 border border-cyan-400/10 rounded-2xl px-6 md:px-8 py-4 md:py-6 focus:outline-none focus:border-cyan-400 transition-all text-white text-sm" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <label class="text-[9px] md:text-[10px] font-black text-cyan-500 uppercase tracking-widest ml-1">Payload Details</label>
+                                <textarea rows="4" name="message" class="w-full bg-cyan-900/5 border border-cyan-400/10 rounded-2xl px-6 md:px-8 py-4 md:py-6 focus:outline-none focus:border-cyan-400 transition-all text-white resize-none text-sm" placeholder="Your inquiry..." required></textarea>
+                            </div>
+                            <input type="text" name="company" autocomplete="off" tabindex="-1" class="hidden" aria-hidden="true">
+                            <button type="submit" class="w-full py-5 md:py-7 bg-cyan-600 hover:bg-cyan-500 text-black font-black uppercase tracking-[0.25em] rounded-2xl transition-all shadow-xl shadow-cyan-900/40 text-xs md:text-sm">
+                                Execute Transmission
+                            </button>
+                            <p id="contact-status" class="text-center text-[10px] md:text-xs font-bold uppercase tracking-widest text-cyan-400/70 hidden"></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="mt-20 md:mt-40 pt-16 border-t border-cyan-500/10 text-center text-cyan-500/30 text-[9px] md:text-[10px] font-black uppercase tracking-[0.3em]">
+                    <p>© <span id="current-year"></span> Muhammad Abuzar (ZarScape).</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="assets/js/portfolio.js"></script>
+</body>
+</html>
+

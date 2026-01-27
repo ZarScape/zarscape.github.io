@@ -1,0 +1,58 @@
+[
+    {
+        "name": "CSS3",
+        "icon": "assets/icons/CSS3.svg"
+    },
+    {
+        "name": "Discord.js",
+        "icon": "assets/icons/Discord.js.svg"
+    },
+    {
+        "name": "Express",
+        "icon": "assets/icons/Express.svg"
+    },
+    {
+        "name": "Git",
+        "icon": "assets/icons/Git.svg"
+    },
+    {
+        "name": "GitHub",
+        "icon": "assets/icons/GitHub.svg"
+    },
+    {
+        "name": "HTML5",
+        "icon": "assets/icons/HTML5.svg"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "assets/icons/JavaScript.svg"
+    },
+    {
+        "name": "JSON",
+        "icon": "assets/icons/JSON.svg"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "assets/icons/MongoDB.svg"
+    },
+    {
+        "name": "Node.js",
+        "icon": "assets/icons/Node.js.svg"
+    },
+    {
+        "name": "React",
+        "icon": "assets/icons/React.svg"
+    },
+    {
+        "name": "Tailwind CSS",
+        "icon": "assets/icons/Tailwind-CSS.svg"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "assets/icons/TypeScript.svg"
+    },
+    {
+        "name": "Visual Studio Code",
+        "icon": "assets/icons/Visual-Studio-Code-(VS-Code).svg"
+    }
+]
