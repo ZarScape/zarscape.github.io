@@ -1,0 +1,58 @@
+[
+    {
+        "name": "CSS3",
+        "icon": "src/assets/icons/CSS3.svg"
+    },
+    {
+        "name": "Discord.js",
+        "icon": "src/assets/icons/Discord.js.svg"
+    },
+    {
+        "name": "Express",
+        "icon": "src/assets/icons/Express.svg"
+    },
+    {
+        "name": "Git",
+        "icon": "src/assets/icons/Git.svg"
+    },
+    {
+        "name": "GitHub",
+        "icon": "src/assets/icons/GitHub.svg"
+    },
+    {
+        "name": "HTML5",
+        "icon": "src/assets/icons/HTML5.svg"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "src/assets/icons/JavaScript.svg"
+    },
+    {
+        "name": "JSON",
+        "icon": "src/assets/icons/JSON.svg"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "src/assets/icons/MongoDB.svg"
+    },
+    {
+        "name": "Node.js",
+        "icon": "src/assets/icons/Node.js.svg"
+    },
+    {
+        "name": "React",
+        "icon": "src/assets/icons/React.svg"
+    },
+    {
+        "name": "Tailwind CSS",
+        "icon": "src/assets/icons/Tailwind-CSS.svg"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "src/assets/icons/TypeScript.svg"
+    },
+    {
+        "name": "Visual Studio Code",
+        "icon": "src/assets/icons/Visual-Studio-Code-(VS-Code).svg"
+    }
+]

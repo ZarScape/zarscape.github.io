@@ -1,10 +1,10 @@
 [
     { 
-        "title": "Zarco", 
-        "description": "Zarco is Ultimate Discord Companion. Always by Your Side. A multipurpose discord app packed with everything you need to enhance a discord server.", 
+        "title": "zar", 
+        "description": "zar is Ultimate Discord Companion. Always by Your Side. A multipurpose discord app packed with everything you need to enhance a discord server.", 
         "tags": ["discord", "discordbot", "nodejs"], 
         "link": "https://discord.com/oauth2/authorize?client_id=1345820519827636295", 
-        "image": "https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/Projects/zarco-banner.webp" 
+        "image": "https://raw.githubusercontent.com/ZarScape/ZarScape/refs/heads/main/images/zar/zar-banner.png" 
     },
     { 
         "title": "Zar Browser", 
